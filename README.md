@@ -13,10 +13,10 @@
 CLI Hub 是一款基于 Rust 与 Tauri 构建的 Windows 桌面工作台，让你在一个界面中启动、查看和使用多个命令行工具。
 
 - **按项目管理**：多工作区标签页，支持按工作目录、按 CLI 类型和不分组三种视图。每个工作区最多 8 个活动会话，全局最多同时运行 24 个。
-- **高效交互**：实时输出预览、完整交互终端、多行输入，以及 Codex / Claude Code 的统一 Shift+Enter 换行快捷键。
+- **高效交互**：实时输出预览、完整交互终端，为任意 CLI 提供统一的多行输入区，支持 Shift+Enter 换行。
 - **后台继续运行**：关闭、重启或更新界面时，已运行的 CLI 可继续在后台工作；重新打开即可连接原有会话。
 - **启动更省心**：保存多套启动配置，保留会话卡片，并可选择在后台进程停止后，下次启动时重新启动此前运行的 CLI。
-- **兼容多种工具**：内置 Codex、Claude Code、PowerShell 和 CMD 入口，也支持自定义 CLI。提供中英文界面与明暗主题。
+- **兼容多种工具**：提供 Codex、Claude Code、Pi、Hermes Agent、OpenCode、PowerShell 和 CMD 启动模板，也可自定义可执行文件、参数与工作目录，保存为常用启动配置。提供中英文界面与明暗主题。
 
 ### 下载与使用
 
@@ -44,10 +44,10 @@ Running several Codex, Claude Code, or terminal sessions and losing track of whi
 CLI Hub is a Windows desktop workspace built with Rust and Tauri. Launch, monitor, and interact with multiple command-line tools from one interface.
 
 - **Organize by project**: workspace tabs with directory grouping, CLI-type grouping, or an ungrouped view. Run up to 8 active sessions per workspace and 24 across the app.
-- **Work comfortably**: live output previews, fully interactive terminals, multiline input, and a shared Shift+Enter newline shortcut for Codex and Claude Code.
+- **Work comfortably**: live output previews, fully interactive terminals, and a shared multiline composer for any CLI, with Shift+Enter to insert a new line.
 - **Keep tasks running**: active CLIs can continue in the background when you close, restart, or update the interface. Reopen CLI Hub to reconnect.
 - **Start faster**: save multiple launch profiles, retain session cards, and optionally relaunch previously running CLIs on startup after the background host has stopped.
-- **Use your tools**: built-in entries for Codex, Claude Code, PowerShell, and CMD, plus custom CLI support. English and Simplified Chinese interfaces, with light and dark themes.
+- **Use your tools**: launch templates for Codex, Claude Code, Pi, Hermes Agent, OpenCode, PowerShell, and CMD. Customize executables, arguments, and working directories, then save them as reusable launch profiles. English and Simplified Chinese interfaces, with light and dark themes.
 
 ### Get started
 
