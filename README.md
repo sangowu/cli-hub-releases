@@ -20,11 +20,20 @@ CLI Hub 是一款基于 Rust 与 Tauri 构建的 Windows 桌面工作台，让�
 
 ### 下载与使用
 
+**前置准备**
+
+- [ ] 使用 **Windows 10/11 x64** 系统。
+- [ ] 安装 **Microsoft Edge WebView2 Runtime**；已安装可跳过。
+- [ ] 安装需要使用的 **CLI 工具**（例如 Codex、Claude Code 或 PowerShell），并完成该工具要求的配置或登录。
+- [ ] 确保 CLI 命令可从系统 `PATH` 找到，或在 CLI Hub 的自定义启动配置中指定可执行文件路径。
+
+CLI Hub 安装版无需 Node.js 或 Rust；所选 CLI 工具的额外依赖请按其官方安装说明准备。
+
+**安装与启动**
+
 1. 前往[最新版本](https://github.com/sangowu/cli-hub-releases/releases/latest)，下载 `.exe` 或 `.msi` 安装包。
 2. 安装并打开 CLI Hub，创建工作区，点击 **New session / 新建会话**，选择 CLI 和项目目录。
 3. 运行多个会话，通过会话卡片查看输出、切换终端。
-
-需要 **Windows 10/11 x64** 和 **Microsoft Edge WebView2 Runtime**。安装版无需 Node.js 或 Rust；要使用的 CLI 工具需自行安装并配置。
 
 重新启动 CLI 不会恢复工具内部的对话状态。电脑重启或后台进程退出会结束原有任务；如需主动停止全部任务，请使用 **Stop all and exit / 停止全部并退出**。
 
@@ -42,11 +51,20 @@ CLI Hub is a Windows desktop workspace built with Rust and Tauri. Launch, monito
 
 ### Get started
 
+**Prerequisites**
+
+- [ ] Use **Windows 10/11 x64**.
+- [ ] Install **Microsoft Edge WebView2 Runtime**, unless it is already installed.
+- [ ] Install the **CLI tools** you want to use (such as Codex, Claude Code, or PowerShell), and complete any required configuration or sign-in.
+- [ ] Make the CLI commands available on the system `PATH`, or specify the executable path in a custom CLI Hub launch profile.
+
+The installed CLI Hub app does not require Node.js or Rust. Follow each CLI tool's official installation instructions for any additional dependencies.
+
+**Install and launch**
+
 1. Open the [latest release](https://github.com/sangowu/cli-hub-releases/releases/latest) and download the `.exe` or `.msi` installer.
 2. Install and open CLI Hub, create a workspace, and choose **New session** to select a CLI and project directory.
 3. Run your sessions, preview their output, and switch terminals through the session cards.
-
-Requires **Windows 10/11 x64** and **Microsoft Edge WebView2 Runtime**. The installed app does not require Node.js or Rust. Install and configure your CLI tools separately.
 
 Relaunching a CLI does not restore its internal conversation state. A computer restart or background-host exit ends the original tasks. Use **Stop all and exit** when you want to stop every task explicitly.
 
