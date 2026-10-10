@@ -1,5 +1,7 @@
 # CLI Hub
 
+![CLI Hub — 多个 CLI，一个工作台。Windows 桌面工作台，展示使用虚拟路径的示例会话。](docs/images/cli-hub-banner.png)
+
 **少切窗口，多做事情。｜Fewer windows. More focus.**
 
 [下载 Windows 版本 / Download for Windows](https://github.com/sangowu/cli-hub-releases/releases/latest) · [历史版本 / All releases](https://github.com/sangowu/cli-hub-releases/releases)
