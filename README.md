@@ -53,7 +53,7 @@ CLI Hub 安装版无需 Node.js 或 Rust；所选 CLI 工具的额外依赖请�
 - 如果是 SmartScreen 的未识别应用提示，并提供继续选项：点击 **更多信息 → 仍要运行**。如果随后出现用户账户控制（UAC）提示，确认这是你刚启动的安装程序后，点击 **是** 继续。
 - 如果提示具体病毒／威胁、Smart App Control 拦截，或组织策略禁止运行，请停止安装并反馈完整提示；不要关闭系统安全防护。
 
-Tauri 更新签名用于验证应用内更新文件，不等同于 Windows Authenticode 发布者签名。关于提示原因，参见 [Microsoft SmartScreen 说明](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)。
+关于提示原因，参见 [Microsoft SmartScreen 说明](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)。
 
 重新启动 CLI 不会恢复工具内部的对话状态。电脑重启或后台进程退出会结束原有任务；如需主动停止全部任务，请使用 **Stop all and exit / 停止全部并退出**。
 
@@ -94,7 +94,7 @@ The current Windows installers are not Authenticode-signed, so Windows may displ
 - For a SmartScreen unrecognized-app prompt that offers an override, choose **More info → Run anyway**. If a User Account Control (UAC) prompt follows, confirm it is the installer you just launched before choosing **Yes**.
 - If Windows reports a specific threat, Smart App Control blocks the app, or organizational policy prevents execution, stop and report the full message. Do not disable system security protections.
 
-Tauri updater signatures verify in-app update files; they are separate from Windows Authenticode publisher signatures. See [Microsoft's SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
+See [Microsoft's SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
 
 Relaunching a CLI does not restore its internal conversation state. A computer restart or background-host exit ends the original tasks. Use **Stop all and exit** when you want to stop every task explicitly.
 
