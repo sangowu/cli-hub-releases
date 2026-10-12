@@ -6,6 +6,16 @@
 
 [下载 Windows 版本 / Download for Windows](https://github.com/sangowu/cli-hub-releases/releases/latest) · [历史版本 / All releases](https://github.com/sangowu/cli-hub-releases/releases)
 
+### 视频演示 / Video demo
+
+[![CLI Hub demo — click to open the video](docs/images/cli-hub-demo-preview.png)](docs/videos/cli-hub-demo-en.mp4)
+
+[观看或下载演示 / Open or download the demo](docs/videos/cli-hub-demo-en.mp4) · English · 43s · 1080p
+
+展示 CLI 分组排列、会话栏收起与展开，以及启动模板设置，含鼠标与键盘操作效果。使用示例会话和虚拟路径。
+
+See session grouping, sidebar collapse/expand, and launch template configuration, with visible mouse and keyboard actions. Uses demo sessions and fictional paths.
+
 ## 中文
 
 同时使用多个 Codex、Claude Code 或终端，却被满屏窗口困扰，找不到对应的项目？
