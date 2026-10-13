@@ -6,6 +6,8 @@
 
 [下载 Windows 版本 / Download for Windows](https://github.com/sangowu/cli-hub-releases/releases/latest) · [历史版本 / All releases](https://github.com/sangowu/cli-hub-releases/releases)
 
+[源码 / Source · GPL-3.0-only](https://github.com/sangowu/cli-hub-source) · [问题反馈 / Issues](https://github.com/sangowu/cli-hub-source/issues)
+
 ### 动态演示 / Animated demo
 
 ![CLI Hub demo — session grouping, sidebar collapse/expand, and launch templates](docs/images/cli-hub-demo-en.gif)
